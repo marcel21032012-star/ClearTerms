@@ -11,7 +11,8 @@ st.set_page_config(
 )
 
 # 🔑 CONFIGURATION DE TES INFOS :
-MA_CLE_API = "AIzaSyAbk2fen-KEGJlHzlBgAxsQD0ONCO7GDwo"
+MA_CLE_API = st.secrets["AIzaSyCmZWtF8k2n61a690y7kBbaj9-eXZ0MlHk"]
+st.write(f"Clé détectée (début) : {MA_CLE_API[:7]}")
 MON_EMAIL_BUSINESS = "contact@clearterms.com"
 
 # Configuration automatique de l'API avec ta clé
